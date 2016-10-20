@@ -123,37 +123,38 @@ public class Lab1kpp {
          
                     
              //add       
+                
             
       
-//           
-//                    
-//    try {
-//         
-//   
-//      Class.forName("org.sqlite.JDBC");
-//      c = DriverManager.getConnection("jdbc:sqlite:C:\\Un\\dovidnyk.sqlite");
-//      c.setAutoCommit(false);
-//    
-//
-//      stmt = c.createStatement();
-//      String sql = "INSERT INTO GANRE (ID,NAME,MORE) " +
-//                   "VALUES (11, 'Stihotvorenie',  'This is new kdjklsdjflfjsdklfjsdkljfsdlkfjsdklfjsdlkfjkls' );"; 
-//      stmt.executeUpdate(sql);
-//           stmt.close();
-//      c.commit();
-//      c.close();
-//    } catch ( Exception e ) {
-//      System.err.println( e.getClass().getName() + ": " + e.getMessage() );
-//      System.exit(0);
-//    }
-//    System.out.println("successfully adding");
-//  
-//           System.out.println(" *****************************"); 
-//    
-//    
-//    
-//    //del
-//    
+           
+                    
+    try {
+         
+   
+      Class.forName("org.sqlite.JDBC");
+      c = DriverManager.getConnection("jdbc:sqlite:C:\\Un\\dovidnyk.sqlite");
+      c.setAutoCommit(false);
+    
+
+      stmt = c.createStatement();
+      String sql = "INSERT INTO GANRE (ID,NAME,MORE) " +
+                   "VALUES (16, 'sdfsdf',  'This is new sd' );"; 
+      stmt.executeUpdate(sql);
+           stmt.close();
+      c.commit();
+      c.close();
+    } catch ( Exception e ) {
+      System.err.println( e.getClass().getName() + ": " + e.getMessage() );
+      System.exit(0);
+    }
+    System.out.println("successfully adding");
+  
+           System.out.println(" *****************************"); 
+    
+    
+    
+    //del
+    
 //               
 //    
 //                    
